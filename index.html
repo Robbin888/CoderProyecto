@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ernesto Tunez</title>
+</head>
+
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Ernesto Tunez</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">EXPPERIENCIA</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Ernesto Tunez</span></h2>
+                <p class="descripcion">Licenciado en Derecho </p>
+                <a href="#portfolio">Experiencia</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Ernesto Tunez Davila</span> </h2>
+            <h3>Licenciado en Derecho</h3>
+            <p>Profesional altamente enfocado en la obtención de resultados, con un enfoque estratégico que busca maximizar 
+                las utilidades. Destacada participación en procesos comerciales, orientado hacia el cliente y con habilidades 
+                excepcionales de relaciones interpersonales. Demostrada capacidad para motivar equipos y resolver conflictos, 
+                así como para conciliar intereses multidisciplinarios.</p>
+            <p>Excelente manejo de situaciones bajo presión, con la habilidad de automatizar y supervisar procesos de manera 
+                eficiente. Se ha destacado en la optimización de operaciones para empresas multinacionales, logrando incrementar 
+                las ventas, reducir costos y gastos, y, en última instancia, maximizar las utilidades.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-person-chalkboard"></i></span>
+                <h4>Asesoramiento legal</h4>
+                <hr>
+                <p>Proporciono asesoramiento jurídico a individuos, empresas u organizaciones en una amplia gama de cuestiones legales.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-people-line"></i></span>
+                <h4>Representación en juicios</h4>
+                <hr>
+                <p>Defiendo o represento a clientes en procedimientos legales, ya sea en tribunales civiles, penales, laborales o administrativos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-invoice"></i></span>
+                <h4>Elaboración de documentos legales</h4>
+                <hr>
+                <p>Redactó contratos, acuerdos, testamentos, escrituras, demandas y otros documentos legales necesarios</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-building"></i></span>
+                <h4>Derecho corporativo</h4>
+                <hr>
+                <p>Asesoramiento a empresas en cuestiones legales relacionadas con la creación de sociedades, contratos comerciales, fusiones y adquisiciones, entre otros.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-brain"></i></i></span>
+                <h4>Propiedad intelectual</h4>
+                <hr>
+                <p>Ayudo a proteger los derechos de propiedad intelectual, como patentes, marcas comerciales y derechos de autor</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-gavel"></i></span>
+                <h4>Derecho penal</h4>
+                <hr>
+                <p>Defiendo a acusados en casos penales o representar a víctimas en casos de delitos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Experiencia</h3>
+        <div class="fila">
+            <div class="experiencia">
+                <div class="overlay"></div>
+                <img src="img/experiencia1.jpeg" alt="">
+                <div class="info">
+                    <h4>Aduana</h4>
+                    <p>Durante mi desempeño en la aduana, adquirí una notable experiencia. Mi responsabilidad 
+                        incluía llevar a cabo la revisión legal de los productos ingresados a la aduana, asegurándome de 
+                        su conformidad con las normativas mexicanas.</p>
+                </div>
+            </div>
+            <div class="experiencia">
+                <div class="overlay"></div>
+                <img src="img/experiencia2.jpeg" alt="">
+                <div class="info">
+                    <h4>Secretaria de Educación Publica</h4>
+                    <p>En esta posición, tengo la responsabilidad de supervisar la atención adecuada que los supervisores de sala 
+                        brindan a los becarios a nivel nacional. Presento a las Gerencias y Jefaturas los hallazgos identificados, 
+                        recopilando planes de acción y fechas compromiso. Realizo un seguimiento meticuloso de las acciones destinadas 
+                        a mitigar los riesgos observados y elaboro informes de auditoría que son claros y concisos.</p>
+                </div>
+            </div>
+            <div class="experiencia">
+                <div class="overlay"></div>
+                <img src="img/experiencia3.jpeg" alt="">
+                <div class="info">
+                    <h4>Despacho propio</h4>
+                    <p>Próximamente, estaré orgulloso de inaugurar mi propio despacho, con la visión de ampliar la atención a un mayor 
+                        número de clientes. Mi objetivo es establecerlo como una de las firmas más prestigiosas en la Ciudad de México.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre *" class="input-mitad">
+                    <input type="email" placeholder="Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
